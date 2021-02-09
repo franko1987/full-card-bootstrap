@@ -1,3 +1,19 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #ced4da;
+  -webkit-text-size-adjust: 100%;
+}
+body .footer {
+  margin-top: auto;
+}
+
 .card {
   position: relative;
   display: flex;
@@ -472,5 +488,44 @@
   transition: all 0.3s ease-in-out;
   border-radius: 0.8rem;
   z-index: 2;
+}
+
+.footer {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer a {
+  color: #000;
+}
+.footer p {
+  margin: 0;
+  color: #576674;
+}
+.footer .yo-content {
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+  color: #000;
+}
+.footer .yo {
+  text-decoration: underline;
+}
+.footer .footer-social {
+  display: flex;
+  align-items: center;
+}
+.footer .footer-social-link {
+  width: 2.8rem;
+  height: 2.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4rem;
+  transition: 0.3s linear;
+}
+.footer .footer-social-link:hover {
+  background-color: #bac1c9;
 }
 /*# sourceMappingURL=card.css.map */
